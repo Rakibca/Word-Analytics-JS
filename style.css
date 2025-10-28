@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-textarea {
-  all: unset;
-}
-
 body {
   font-family: 'Inter', sans-serif;
   background-color: #e1e8eb;
@@ -22,12 +18,22 @@ body {
   z-index: -1;
   height: 254px;
   width: 100%;
-  background-image: linear-gradient(
+  background-image: url('rn-image-1.png');
+  /*background-image: linear-gradient(
+    to right,
+    rgba(101, 0, 163, 0.9),
+    rgba(24, 120, 175, 0.9)
+  );*/
+  /*background-image: linear-gradient(
       to right,
       rgba(101, 0, 163, 0.9),
       rgba(24, 120, 175, 0.9)
     ),
-    url('https://bytegrad.com/course-assets/images/rn-image-1.png');
+    url('https://bytegrad.com/course-assets/images/rn-image-1.png');*/
+}
+
+textarea {
+  all: unset;
 }
 
 .first-heading {
